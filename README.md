@@ -1,2 +1,3 @@
 # practice-portfolio-page-glenn-m
-<img width="1405" height="748" alt="image" src="https://github.com/user-attachments/assets/67e9db95-bde8-4258-ad4b-119c3098a983" />
+
+<img width="1420" height="881" alt="image" src="https://github.com/user-attachments/assets/66095612-9ccc-4435-942d-095e57a99d31" />
