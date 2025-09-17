@@ -3,7 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="styles.css" />
+
     <title>Glenn McCrea</title>
   </head>
   <body>
@@ -12,10 +20,30 @@
       <nav>
         <a href="#home" class="nav-items"> home</a>
         <a href="#skillSection" class="nav-items">skills</a>
-        <a href="#aboutSection" class="nav-items">about</a>
         <a href="#contactSection" class="nav-items">contact</a>
+        <a href="#aboutSection" class="nav-items">about</a>
+        <a href="https://github.com/glenn-mccrea" class="nav-items">github</a>
       </nav>
     </header>
+    <br />
+    <hr />
+    <section id="aboutSection">
+      <article>
+        <h3>About:</h3>
+        <img
+          src="./glennProfile.jpeg"
+          alt="A picture of Glenn."
+          id="glennProfile"
+        />
+        <br />
+        Based in the greater St. Louis area, Glenn is a technical creative with
+        skills in audio, video, graphic design, and web development.
+        <br /><br />He has a passion for making projects that solve real
+        problems, engage audiences, and deliver polished, reliable results.
+      </article>
+    </section>
+    <hr />
+
     <section id="skillSection">
       <br />
       <table>
@@ -60,16 +88,6 @@
       </table>
     </section>
 
-    <hr />
-    <section id="aboutSection">
-      <article>
-        <h3>About:</h3>
-        Based in Greater St. Louis, Glenn is a technical creative with skills in
-        Audio, Video, Graphic Design, and Web Development.
-      </article>
-    </section>
-    <hr />
-
     <section id="contactSection">
       <h3>Contact Glenn:</h3>
       <form action="" method="post">
@@ -99,18 +117,23 @@
             </td>
           </tr>
           <tr>
-            <td><button type="submit">Send Message</button></td>
+            <td>
+              <button type="submit" id="submit_button">Send Message</button>
+            </td>
           </tr>
         </table>
       </form>
     </section>
     <hr />
+    <br />
+
     <footer>
       <nav>
         <a href="#home" class="nav-items"> home</a>
         <a href="#skillSection" class="nav-items">skills</a>
         <a href="#aboutSection" class="nav-items">about</a>
         <a href="#contactSection" class="nav-items">contact</a>
+        <a href="https://github.com/glenn-mccrea" class="nav-items">github</a>
       </nav>
     </footer>
   </body>
